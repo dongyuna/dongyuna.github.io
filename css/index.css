@@ -1,0 +1,83 @@
+.topbar-wrapper{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #333;
+}
+
+.user-info li{
+    float: right;
+    
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.user-info .line{
+    font-size: 12px;
+    color: #424242;
+    margin: 0 8px;
+}
+
+.WeChat-bottom{
+    position: relative;
+}
+
+.WeChat-bottom:hover .qrcode{
+    display: block;
+    height: 148px;
+}
+
+.user-info a{
+    color: #fff;
+}
+
+.WeChat-bottom .qrcode{
+    position: absolute;
+    left: -40px;
+    width: 124px;
+    height: 0;
+    overflow: hidden;
+    line-height: 1;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    transform: height 0.3s;
+    z-index: 99;
+}
+
+.WeChat-bottom .qrcode img{
+    width: 90px;
+    margin: 17px;
+    margin-bottom: 10px;
+}
+
+.WeChat-bottom .qrcode span{
+    font-size: 14px;
+    color: #000;
+}
+
+.top-nav{
+    width: 1210px;
+    height: 48px;
+    line-height: 48px;
+    margin: 50px auto;
+    background-color: #E8E7E3;
+    display: flex;
+}
+
+.top-nav li{
+    flex-grow: 1;
+}
+
+.top-nav a{
+    display:block;
+    color: #808080;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+}
+
+.top-nav a:hover{
+    background-color: #636363;
+    color: #fff;
+}
