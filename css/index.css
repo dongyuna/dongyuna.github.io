@@ -22,7 +22,7 @@
     position: relative;
 }
 
-.WeChat-bottom:hover .qrcode{
+.WeChat-bottom:hover .qrcode:hover{
     display: block;
     height: 148px;
 }
